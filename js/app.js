@@ -7,7 +7,7 @@ const student = {
     },
     age: 32,
     subject: ['math', 'bangla', 'english'],
-    email: 'shakhawath@gamil.com',
+    email: 'shakhawath@mail.com',
     study: function () {
         console.log(this.subject[1]);
     }
@@ -43,3 +43,15 @@ const addAndAdd = (num3, num4) => {
 };
 const addBoth = addAndAdd(17, 91);
 // console.log(addBoth);
+
+// problens 4.
+const myNums = [14, 77, 35, 49, 21, 56, 63, 84, 28];
+const resul = myNums.map(num => num / 7);
+console.log(resul);
+
+// problem 6.
+const { email } = student;
+console.log(email);
+const myNums2 = [14, 77, 35, 49, 21, 56, 63, 84, 28];
+const [, second] = myNums2;
+console.log(second);
